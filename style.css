@@ -1,13 +1,13 @@
-
+*{
+    list-style: none;  
+}
 .background{
     width:100%; /* pleine largeur de l'ecran */
-    height:100%; /* pleine hauteur de l'écran */
+/*    height:1080px; */
     position:fixed; /* fixed plutot que absolute, permet de garder le fond fixe lorsqu'on scroll*/
     top:0; left:0; /* on place le fond en haut à gauche */
     z-index:-1; /* on place notre fond en dessous du 0, donc derrière n'importe quel élément html (sinon il cache le texte)*/
-    object-fit: cover; /*pour fit toute la page sans deformation */
 }
-
 .kenburns-top {
     animation: kenburns-top 25s ease-out;
     animation-iteration-count: infinite;
@@ -22,12 +22,47 @@
         transform-origin: top;
     }
 }
-.logoSimon{
-    position: relative;
-    margin: 3%;
+body nav div .nav-item{
+    box-sizing: content-box;
+    width: 150px;
+    border-top: solid white 2px;
+    padding: 5px;      
 }
-.navbar{
-    position: relative;
-    margin-left: 90%;
-    margin-top: -8%;
+body nav div .nav-item:hover{
+    background-color: white;
+    border-radius: 0px 0px 3px 3px;
+}
+body nav div ul li a:hover{
+    color: black;
+}
+body nav div ul li a{
+    color: white;
+}
+.fa-chevron-right{
+    color: red;
+}
+.fa-bars{
+    color: white;
+}
+
+@media (max-width: 580px){
+    .simonLogo{
+        width: 75%;
+    }
+    body nav div .nav-item{
+    box-sizing: content-box;
+    width: 100px;
+    border-top: solid white 2px;
+    padding: 5px;
+}}
+
+text-center{
+    margin-top: 45%;
+    background-color: white;
+    padding-bottom: 100%;
+}
+h1{
+    margin-top: 15%;
+    font-size: 80px;
+    font-family: cutive mono;
 }

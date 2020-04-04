@@ -16,12 +16,21 @@
             $(this).attr('src', imgArray[count % imgArray.length])
                     .fadeIn(1600);
         });
-    }, 12000);
+    }, ); //en ms
 })(jQuery);
 
+//fonction de scrolling on click
+$(document).ready(function () {
+    $('.scroll').on('click', function () { // Au clic sur un élément
+        let page = $(this).attr('href'); // Page cible
+        let speed = 750; // Durée de l'animation (en ms)
+        $('html, body').animate({scrollTop: $(page).offset().top}, speed);
+        return false;
+    });
+});
 
 //une fonction pour empecher le scroll  
-$('html, body').css({
-    overflow: 'hidden',
-    height: '100%'
-});
+//$('html, body').css({
+//    overflow: 'hidden',
+//    height: '100%'
+//});
