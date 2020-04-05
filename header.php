@@ -13,6 +13,5 @@
             </ul>
         </div>
     </nav>
-    <img class="background kenburns-top disableScroll img-responsive" style=" background-size: cover;" src="" alt="" id="imageBG">
 </header>
 
