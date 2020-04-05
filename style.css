@@ -3,7 +3,7 @@
 }
 .background{
     width:100%; /* pleine largeur de l'ecran */
-/*    height:1080px; */
+    /*    height:1080px; */
     position:fixed; /* fixed plutot que absolute, permet de garder le fond fixe lorsqu'on scroll*/
     top:0; left:0; /* on place le fond en haut à gauche */
     z-index:-1; /* on place notre fond en dessous du 0, donc derrière n'importe quel élément html (sinon il cache le texte)*/
@@ -50,11 +50,11 @@ body nav div ul li a{
         width: 75%;
     }
     body nav div .nav-item{
-    box-sizing: content-box;
-    width: 100px;
-    border-top: solid white 2px;
-    padding: 5px;
-}}
+        box-sizing: content-box;
+        width: 100px;
+        border-top: solid white 2px;
+        padding: 5px;
+    }}
 
 text-center{
     margin-top: 45%;
@@ -65,4 +65,16 @@ h1{
     margin-top: 15%;
     font-size: 80px;
     font-family: cutive mono;
+    color: white;
+}
+.histoireBG{
+    margin-top: 20%;
+    background-color: black;
+    color: white;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+    width: 100%;
+    border-top: solid red 2px;
 }
