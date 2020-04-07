@@ -16,7 +16,7 @@ and open the template in the editor.
     </head>
     <body>
 
-        <?php include 'headerIndex.php'; ?>
+        <?php include 'header.php'; ?>
         <img class="background kenburns-top disableScroll img-responsive" style=" background-size: cover;" src="" alt="" id="imageBG">
 
         <script src="javascript/alternateBG.js" type="text/javascript"></script>
