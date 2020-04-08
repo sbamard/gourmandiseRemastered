@@ -98,8 +98,12 @@ h1{
     margin-top: 40%;
 }
 
-
-
+.histoire{
+    background-image:url(img/choco2.jpg);
+}
+.collection{
+    background-image:url(img/fond1.jpg);
+}
 
 
 div#galerie

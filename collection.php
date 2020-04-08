@@ -17,7 +17,7 @@ and open the template in the editor.
         <link href="jquery.roadmap.min.css" rel="stylesheet">
         <script src="javascript/timeline.js" type="text/javascript"></script>
     </head>
-    <body class="histoire">
+    <body class="collection">
         <?php include 'header.php'; ?>
         
         <h1 class="text-center">La collection</h1>

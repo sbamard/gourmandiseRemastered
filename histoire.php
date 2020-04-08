@@ -19,7 +19,6 @@ and open the template in the editor.
         <?php include 'header.php'; ?>
 
         <h1 class="text-center">Découvrez notre histoire</h1>
-
         <div class="row col-12">
             <div class="col-4"></div>
             <div id="butt" class="col-4 text-center"> <a class="scrollFonction" href="#page-1"><i  class="fas fa-arrow-alt-circle-down fa-4x align-items-center"></i></a></div>
