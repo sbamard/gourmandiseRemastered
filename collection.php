@@ -19,7 +19,7 @@ and open the template in the editor.
     </head>
     <body class="collection">
         <?php include 'header.php'; ?>
-        
+
         <h1 class="text-center">La collection</h1>
 
         <div class="row col-12">
@@ -28,37 +28,76 @@ and open the template in the editor.
             <div class="col-4"></div>
         </div>
 
-        <div id="page-1" class="paragraphePrincipaleHistoire col-12">
-            <div id="galerie">
-                <ul id="galerie_mini">
-                    <li>
-                        <a href="img/img1.png" title="Titre d 1"><img src="images/minis/m_photo1.png" alt="Le titro 1" /></a>    </li>
-                    <li>
-                        <a href="img/img2.png" title="Titre de la photo 2"><img src="images/minis/m_photo2.png" alt="Le titre de la photo 2" /></a>    </li>
-                    <li>
-                        <a href="img/img3.png" title="Titre de la photo 3"><img src="images/minis/m_photo3.png" alt="Le titre de la photo 3" /></a>    </li>
-                    <li>
-                        <a href="img/img1.png" title="Titre de la photo 4"><img src="images/minis/m_photo4.png" alt="Le titre de la photo 4" /></a>    </li>
-                    <li>
-                        <a href="img/img2.png" title="Titre de la photo 5"><img src="images/minis/m_photo5.png" alt="Le titre de la photo 5" /></a>    </li>
-                    <li>
-                        <a href="img/img3.png" title="Titre de la photo 6"><img src="images/minis/m_photo6.png" alt="Le titre de la photo 6" /></a>    </li>
-                    <li>
-                        <a href="img/img1.png" title="Titre de la photo 7"><img src="images/minis/m_photo7.png" alt="Le titre de la photo 7" /></a>    </li>
-                </ul>
+        <div id="page-1" class="fondCollection col-12">
+            
+            <!-- Projects Section -->
+            <section id="projects" class="projects-section bg-light">
+                <div class="container">
+                    <!--Exercice slide 27-->
+                    <div class="col-sd-12 col-md-12 col-lg-12 col-xl-12 radio-but">
+                        <input name="projects-type" type="radio" value="vitrine" onclick="displayProject()" /> Sites vitrines
+                        <input name="projects-type" type="radio" value="commerce" onclick="displayProject()" /> Sites e-commerces
+                        <input name="projects-type" type="radio" value="all" checked onclick="displayProject()" /> Tous les projets
+                    </div>
+                    
+                    <!-- Featured Project Row -->
+                    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                        <div class="col-xl-8 col-lg-7 all commerce">
+                            <img class="img-fluid mb-3 mb-lg-0" src="img/collection1.png" alt="">
+                        </div>
+                        <div class="col-xl-4 col-lg-5 all commerce">
+                            <div class="featured-text text-center text-lg-left">
+                                <h4>Shoreline</h4>
+                                <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                            </div>
+                        </div>
+                    </div>
 
-                <dl id="photo">
-                    <dt>Titre de la photo 1</dt>
-                    <dd><img id="big_pict" src="images/photo1.png" alt="Photo 1 en taille normale" /></dd>
-                </dl>
-            </div>
+                    <!-- Project One Row -->
+                    <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                        <div class="col-lg-6 all vitrine">
+                            <img class="img-fluid" src="img/collection2.png" alt="">
+                        </div>
+                        <div class="col-lg-6 all vitrine">
+                            <div class="bg-black text-center h-100 project">
+                                <div class="d-flex h-100">
+                                    <div class="project-text w-100 my-auto text-center text-lg-left">
+                                        <h4 class="text-white">Misty</h4>
+                                        <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                        <hr class="d-none d-lg-block mb-0 ml-0">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Two Row -->
+                    <div class="row justify-content-center no-gutters">
+                        <div class="col-lg-6 all vitrine">
+                            <img class="img-fluid" src="img/collection3.png" alt="">
+                        </div>
+                        <div class="col-lg-6 order-lg-first all vitrine">
+                            <div class="bg-black text-center h-100 project">
+                                <div class="d-flex h-100">
+                                    <div class="project-text w-100 my-auto text-center text-lg-right">
+                                        <h4 class="text-white">Mountains</h4>
+                                        <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+                                        <hr class="d-none d-lg-block mb-0 mr-0">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
         </div>
 
         <script src="javascript/jquery.js" type="text/javascript"></script>
-        <script src="javascript/alternateBG.js" type="text/javascript"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="javascript/scroll.js" type="text/javascript"></script>
+        <script src="javascript/collectionJS.js" type="text/javascript"></script>
     </body>
 </html>
 
