@@ -29,64 +29,30 @@ and open the template in the editor.
         </div>
 
         <div id="page-1" class="fondCollection col-12">
-            
+
             <!-- Projects Section -->
             <section id="projects" class="projects-section bg-light">
                 <div class="container">
-                    <!--Exercice slide 27-->
-                    <div class="col-sd-12 col-md-12 col-lg-12 col-xl-12 radio-but">
-                        <input name="projects-type" type="radio" value="vitrine" onclick="displayProject()" /> Sites vitrines
-                        <input name="projects-type" type="radio" value="commerce" onclick="displayProject()" /> Sites e-commerces
-                        <input name="projects-type" type="radio" value="all" checked onclick="displayProject()" /> Tous les projets
+
+                    <div class="radio-but row align-items-center">
+                        <input name="projects-type" type="radio" value="collection1"  onclick="displayProject()" /> collection 1
+                        <input name="projects-type" type="radio" value="collection2"  onclick="displayProject()" /> collection 2
+                        <input name="projects-type" type="radio" value="collection3"  onclick="displayProject()" /> collection 3
                     </div>
                     
-                    <!-- Featured Project Row -->
-                    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                        <div class="col-xl-8 col-lg-7 all commerce">
-                            <img class="img-fluid mb-3 mb-lg-0" src="img/collection1.png" alt="">
-                        </div>
-                        <div class="col-xl-4 col-lg-5 all commerce">
-                            <div class="featured-text text-center text-lg-left">
-                                <h4>Shoreline</h4>
-                                <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
-                            </div>
-                        </div>
+                    <!-- collection 1 -->
+                    <div class="all collection1">
+                        <img class="img-fluid" src="img/collection2.png" alt="">
+                    </div>
+                    
+                    <!-- collection 2 -->
+                    <div class="all collection2">
+                        <img class="img-fluid mb-3 mb-lg-0" src="img/collection1.png" alt="">
                     </div>
 
-                    <!-- Project One Row -->
-                    <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                        <div class="col-lg-6 all vitrine">
-                            <img class="img-fluid" src="img/collection2.png" alt="">
-                        </div>
-                        <div class="col-lg-6 all vitrine">
-                            <div class="bg-black text-center h-100 project">
-                                <div class="d-flex h-100">
-                                    <div class="project-text w-100 my-auto text-center text-lg-left">
-                                        <h4 class="text-white">Misty</h4>
-                                        <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                                        <hr class="d-none d-lg-block mb-0 ml-0">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project Two Row -->
-                    <div class="row justify-content-center no-gutters">
-                        <div class="col-lg-6 all vitrine">
-                            <img class="img-fluid" src="img/collection3.png" alt="">
-                        </div>
-                        <div class="col-lg-6 order-lg-first all vitrine">
-                            <div class="bg-black text-center h-100 project">
-                                <div class="d-flex h-100">
-                                    <div class="project-text w-100 my-auto text-center text-lg-right">
-                                        <h4 class="text-white">Mountains</h4>
-                                        <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                                        <hr class="d-none d-lg-block mb-0 mr-0">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <!-- collection 3 -->
+                    <div class="all collection3">
+                        <img class="img-fluid" src="img/collection3.png" alt="">
                     </div>
 
                 </div>

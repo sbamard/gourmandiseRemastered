@@ -15,7 +15,6 @@ and open the template in the editor.
         <script src='https://kit.fontawesome.com/c88ba75710.js' crossorigin="anonymous"></script>
     </head>
     <body>
-
         <?php include 'header.php'; ?>
         <img class="background kenburns-top disableScroll img-responsive" style=" background-size: cover;" src="" alt="" id="imageBG">
 

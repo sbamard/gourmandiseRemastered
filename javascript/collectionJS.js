@@ -1,8 +1,9 @@
 function displayProject() {
     let projectsType = document.getElementsByName('projects-type');
     let all = document.getElementsByClassName("all");
-    let vitrine = document.getElementsByClassName("vitrine");
-    let commerce = document.getElementsByClassName("commerce");
+    let collection1 = document.getElementsByClassName("collection1");
+    let collection2 = document.getElementsByClassName("collection2");
+    let collection3 = document.getElementsByClassName("collection3");
     for (let i = 0; i < projectsType.length; i++) {
         //Récupère chaque élément HTML un par un
         let projectType = projectsType[i];
@@ -11,29 +12,33 @@ function displayProject() {
             
             
             /*TODO : test sur projectType.value*/
-            if (projectType.value === "vitrine") {
+            if (projectType.value === "collection1") {
                 //hide all
                 for (let a = 0; a < all.length; a++) {
                     all[a].style.display = 'none';
                 }
-                //display only vitrine projects
-                for (let a = 0; a < vitrine.length; a++) {
-                    vitrine[a].style.display = 'block';
+                //display only collection1 
+                for (let a = 0; a < collection1.length; a++) {
+                    collection1[a].style.display = 'block';
                 }}
             
-            else if (projectType.value === "commerce") {
+            else if (projectType.value === "collection2") {
                 for (let a = 0; a < all.length; a++) {
                     all[a].style.display = 'none';
                 }
-                //display only vitrine projects
-                for (let c = 0; c < commerce.length; c++) {
-                    commerce[c].style.display = 'block';
+                //display only collection2 
+                for (let c = 0; c < collection2.length; c++) {
+                    collection2[c].style.display = 'block';
+                }}
+            else if (projectType.value === "collection3") {
+                for (let a = 0; a < all.length; a++) {
+                    all[a].style.display = 'none';
+                }
+                //display only collection3 
+                for (let c = 0; c < collection3.length; c++) {
+                    collection3[c].style.display = 'block';
                 }}
             
-            else if (projectType.value === "all") {
-                for (let a = 0; a < all.length; a++) {
-                    all[a].style.display = 'block';
-                }}
         }
     }
 }

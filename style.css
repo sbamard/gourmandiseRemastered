@@ -26,14 +26,17 @@ body nav div .nav-item{
     box-sizing: content-box;
     width: 150px;
     border-top: solid white 2px;
-    padding: 5px;      
+    padding: 5px;    
+            transition: 0.5s;
 }
 body nav div .nav-item:hover{
     background-color: white;
     border-radius: 0px 0px 3px 3px;
+        transition: 0.5s;
 }
 body nav div ul li a:hover{
     color: black;
+    transition: 2s;
 }
 body nav div ul li a{
     color: white;
@@ -56,9 +59,9 @@ body nav div ul li a{
     display: block;
 }
 
-@media (max-width: 580px){
+@media (max-width: 600px){
     .simonLogo{
-        width: 90%;
+        width: 70%;
     }
     body nav div .nav-item{
         box-sizing: content-box;
@@ -110,4 +113,28 @@ h1{
     margin-top: 25%;
     padding-top: 5%;
     padding-bottom: 40%;
+}
+
+.contact{
+    background-color: black;
+}
+
+.contact h2{
+    color: white;
+    text-decoration: underline 1px red ;
+    font-family: 'Roboto';
+    font-size: 130%;
+}
+.contact h3{
+    color: white;
+    font-family: 'Roboto';
+    font-size: 130%;
+}
+.contact h3 a{
+    color: red;
+    text-decoration: none;
+}
+.contact h3 a:hover{
+    color: white;
+    text-decoration: none;
 }
