@@ -3,15 +3,20 @@
 
 }
 
-/*.imageBG {
-    width: 100%; !* pleine largeur de l'ecran *!
-    !*    height:1080px; *!
-    position: fixed; !* fixed plutot que absolute, permet de garder le fond fixe lorsqu'on scroll*!
+.background {
+    width: 100%; /* pleine largeur de l'ecran */
+    /*    height:1080px; */
+    position: fixed; /* fixed plutot que absolute, permet de garder le fond fixe lorsqu'on scroll*/
     top: 0;
-    left: 0; !* on place le fond en haut à gauche *!
-    z-index: -1; !* on place notre fond en dessous du 0, donc derrière n'importe quel élément html (sinon il cache le texte)*!
-    background-image: url("img/fond2.png");
-}*/
+    left: 0; /* on place le fond en haut à gauche */
+    z-index: -1; /* on place notre fond en dessous du 0, donc derrière n'importe quel élément html (sinon il cache le texte)*/
+
+}
+
+#indexbg {
+    background-image: url("/img/fond1.jpg");
+    background-color: black;
+}
 
 .kenburns-top {
     animation: kenburns-top 25s ease-out;
@@ -85,7 +90,7 @@ body nav div ul li a {
     }
 }
 
-.text-center {
+text-center {
     margin-top: 45%;
     background-color: white;
     padding-bottom: 100%;
@@ -142,7 +147,8 @@ h1 {
 
 .contact h2 {
     color: white;
-    font-family: 'Roboto',serif;
+    text-decoration: underline red;
+    font-family: 'Roboto', serif;
     font-size: 130%;
 }
 

@@ -3,7 +3,7 @@
 //une fonction pour alterner les BG
 (function ($) {
     let count = 0;
-    let imgArray = new Array();
+    let imgArray = [];
     imgArray[0] = 'img/fond1.png';
     imgArray[1] = 'img/fond2.png';
     imgArray[2] = 'img/choco1.jpg';

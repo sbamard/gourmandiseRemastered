@@ -14,7 +14,7 @@ and open the template in the editor.
         <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
         <script src='https://kit.fontawesome.com/c88ba75710.js' crossorigin="anonymous"></script>
     </head>
-    <body>
+    <body id="indexbg">
         <?php include 'header.php'; ?>
         <img class="background kenburns-top disableScroll img-responsive" style=" background-size: cover;" src="" alt="" id="imageBG">
         <script src="javascript/alternateBG.js" type="text/javascript"></script>
