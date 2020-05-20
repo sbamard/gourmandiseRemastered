@@ -29,36 +29,65 @@ and open the template in the editor.
         </div>
 
         <div id="page-1" class="fondCollection col-12">
-
-            <!-- Projects Section -->
-            <section id="projects" class="projects-section bg-light">
-                <div class="container">
-
-                    <div class="radio-but row align-items-center">
-                        <input name="projects-type" type="radio" value="collection1"  onclick="displayProject()" /> collection 1
-                        <input name="projects-type" type="radio" value="collection2"  onclick="displayProject()" /> collection 2
-                        <input name="projects-type" type="radio" value="collection3"  onclick="displayProject()" /> collection 3
-                    </div>
-                    
-                    <!-- collection 1 -->
-                    <div class="all collection1">
-                        <img class="img-fluid" src="img/collection2.png" alt="">
-                    </div>
-                    
-                    <!-- collection 2 -->
-                    <div class="all collection2">
-                        <img class="img-fluid mb-3 mb-lg-0" src="img/collection1.png" alt="">
-                    </div>
-
-                    <!-- collection 3 -->
-                    <div class="all collection3">
-                        <img class="img-fluid" src="img/collection3.png" alt="">
-                    </div>
-
-                </div>
-            </section>
+            <div class="timeline">
+                <ul>
+                    <li>
+                        <div class="content">
+                            <img src="img/collection1.png" alt=""/>
+                        </div>
+                        <div class="pointDroit"></div>
+                        <div class="titre">
+                            <h4>Sacré coeur</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content">
+                            <img src="img/collection2.png" alt=""/>
+                        </div>
+                        <div class="pointGauche"></div>
+                        <div class="titre">
+                            <h4>July 2019</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content">
+                            <img src="img/collection3.png" alt=""/>
+                        </div>
+                        <div class="pointDroit"></div>
+                        <div class="titre">
+                            <h4>March 2019</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content">
+                            <img src="img/collection1.png" alt=""/>
+                        </div>
+                        <div class="pointGauche"></div>
+                        <div class="titre">
+                            <h4>Sacré coeur</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content">
+                            <img src="img/collection2.png" alt=""/>
+                        </div>
+                        <div class="pointDroit"></div>
+                        <div class="titre">
+                            <h4>July 2019</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content">
+                            <img src="img/collection3.png" alt=""/>
+                        </div>
+                        <div class="pointGauche"></div>
+                        <div class="titre">
+                            <h4>March 2019</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-
         <script src="javascript/jquery.js" type="text/javascript"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
