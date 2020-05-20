@@ -4,7 +4,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
+<html lang="fr">
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <meta charset="UTF-8">
@@ -15,7 +15,6 @@ and open the template in the editor.
         <script src='https://kit.fontawesome.com/c88ba75710.js' crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <link href="jquery.roadmap.min.css" rel="stylesheet">
-        <script src="javascript/timeline.js" type="text/javascript"></script>
     </head>
     <body class="collection">
         <?php include 'header.php'; ?>

@@ -4,7 +4,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
+<html lang="fr">
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <meta charset="UTF-8">
@@ -27,7 +27,7 @@ and open the template in the editor.
             </span>
         </h1>
 
-        <h2 class="text-center tilt-in-top-1" ><strong>Simon Bamard.</strong></h2>
+        <h2 class="text-center tilt-in-top-1" ><strong>Simon Bamard</strong></h2>
         <h3 class="text-center">06.84.85.38.36 <br> <a href="mailto:adresse@serveur.com">simonbamard@gmail.com </a> <br> <a href="http://94.247.180.77/plesk-site-preview/simonbamard.fr/https/94.247.180.77/monCV/">mon cv</a></h3>
 
         <script src="javascript/animTitreContact.js" type="text/javascript"></script>

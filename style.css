@@ -1,17 +1,23 @@
-*{
-    list-style: none;  
+* {
+    list-style: none;
+
 }
-.background{
-    width:100%; /* pleine largeur de l'ecran */
-    /*    height:1080px; */
-    position:fixed; /* fixed plutot que absolute, permet de garder le fond fixe lorsqu'on scroll*/
-    top:0; left:0; /* on place le fond en haut à gauche */
-    z-index:-1; /* on place notre fond en dessous du 0, donc derrière n'importe quel élément html (sinon il cache le texte)*/
-}
+
+/*.imageBG {
+    width: 100%; !* pleine largeur de l'ecran *!
+    !*    height:1080px; *!
+    position: fixed; !* fixed plutot que absolute, permet de garder le fond fixe lorsqu'on scroll*!
+    top: 0;
+    left: 0; !* on place le fond en haut à gauche *!
+    z-index: -1; !* on place notre fond en dessous du 0, donc derrière n'importe quel élément html (sinon il cache le texte)*!
+    background-image: url("img/fond2.png");
+}*/
+
 .kenburns-top {
     animation: kenburns-top 25s ease-out;
     animation-iteration-count: infinite;
 }
+
 @keyframes kenburns-top {
     0% {
         transform: scale(1) translateY(0);
@@ -22,126 +28,139 @@
         transform-origin: top;
     }
 }
-body nav div .nav-item{
+
+body nav div .nav-item {
     box-sizing: content-box;
     width: 150px;
     border-top: solid white 2px;
-    padding: 5px;    
+    padding: 5px;
     transition: 0.5s;
 }
-body nav div .nav-item:hover{
+
+body nav div .nav-item:hover {
     background-color: white;
-    border-radius: 0px 0px 3px 3px;
+    border-radius: 0 0 3px 3px;
     transition: 0.5s;
 }
-body nav div ul li a:hover{
+
+body nav div ul li a:hover {
     color: black;
     transition: 2s;
 }
-body nav div ul li a{
+
+body nav div ul li a {
     color: white;
 }
 
-.fa-chevron-right{
+.fa-chevron-right {
     color: red;
 }
-.fa-bars{
+
+.fa-bars {
     color: white;
 }
-.fa-arrow-alt-circle-down:hover{
+
+.fa-arrow-alt-circle-down:hover {
     transition: 0.5s;
     transform: rotate(360deg);
     color: black;
 }
-.fa-arrow-alt-circle-down{
+
+.fa-arrow-alt-circle-down {
     transition: 0.5s;
     color: white;
     display: block;
 }
 
-@media (max-width: 600px){
-    .simonLogo{
+@media (max-width: 600px) {
+    .simonLogo {
         width: 70%;
     }
-    body nav div .nav-item{
+
+    body nav div .nav-item {
         box-sizing: content-box;
         width: 100px;
         border-top: solid white 2px;
         padding: 5px;
     }
 }
-text-center{
+
+.text-center {
     margin-top: 45%;
     background-color: white;
     padding-bottom: 100%;
     position: absolute;
 }
-h1{
+
+h1 {
     margin-top: 15%;
     font-size: 80px;
-    font-family: Brush Script MT;
+    font-family: Brush Script MT, serif;
     color: white;
 }
-.paragraphePrincipaleHistoire{
+
+.paragraphePrincipaleHistoire {
     background-color: black;
     margin-top: 25%;
     padding-bottom: 2%;
     padding-top: 5%;
 }
-.paragrapheHistoire{
+
+.paragrapheHistoire {
     color: white;
     margin-top: 1%;
 
 }
-.petitParagraphe{
-    border-top: 1px solid red ;
+
+.petitParagraphe {
+    border-top: 1px solid red;
     padding-top: 1%;
 }
-.fa-arrow-alt-circle-down{
+
+.fa-arrow-alt-circle-down {
     margin-top: 40%;
 }
 
-.histoire{
-    background-image:url(img/choco2.jpg);
-}
-.collection{
-    background-image:url(img/fond1.jpg);
+.histoire {
+    background-image: url(img/choco2.jpg);
 }
 
-.fondCollection{
+.collection {
+    background-image: url(img/fond1.jpg);
+}
+
+.fondCollection {
     background-color: black;
     margin-top: 25%;
     padding-top: 5%;
     padding-bottom: 40%;
 }
 
-.contact{
+.contact {
     background-color: black;
 }
 
-.contact h2{
+.contact h2 {
     color: white;
-    text-decoration: underline 1px red ;
-    font-family: 'Roboto';
+    font-family: 'Roboto',serif;
     font-size: 130%;
 }
-.contact h3{
+
+.contact h3 {
     color: white;
-    font-family: 'Roboto';
+    font-family: 'Roboto', serif;
     font-size: 130%;
 }
-.contact h3 a{
+
+.contact h3 a {
     color: red;
     text-decoration: none;
 }
-.contact h3 a:hover{
+
+.contact h3 a:hover {
     color: white;
     text-decoration: none;
 }
-
-
-
-
 
 
 .timeline {
@@ -169,6 +188,7 @@ h1{
     position: relative;
     left: 1px;
 }
+
 .pointGauche {
     min-width: 20px;
     height: 20px;
@@ -249,6 +269,7 @@ h1{
     left: 50%;
     background-color: #333333;
 }
+
 @media (max-width: 800px) {
     .point {
         min-width: 15px;
