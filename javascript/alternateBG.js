@@ -16,5 +16,5 @@
             $(this).attr('src', imgArray[count % imgArray.length])
                     .fadeIn(1600);
         });
-    }, 7000); //en ms
+    }, 1000); //en ms
 })(jQuery);
