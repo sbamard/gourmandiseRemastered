@@ -187,7 +187,7 @@ h1 {
 .pointDroit {
     min-width: 20px;
     height: 20px;
-    background-color: #be9fe1;
+    background-color: white;
     border-radius: 100%;
     z-index: 2;
     border: 3px #333333 solid;
@@ -234,7 +234,7 @@ h1 {
 }
 
 .timeline ul li .titre h4 {
-    background-color: #e1ccec;
+    background-color: white;
     width: 100px;
     text-align: center;
     padding: 5px 10px;
@@ -276,6 +276,15 @@ h1 {
     background-color: #333333;
 }
 
+.titredroit{
+    background-color: white;
+    width: 80px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    left: 10px;
+}
+
 @media (max-width: 800px) {
     .point {
         min-width: 15px;
@@ -308,4 +317,24 @@ h1 {
     p {
         padding: 10px !important;
     }
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+}
+h4{
+    border-radius: 10px;
+    background-color: white;
+    width: 100px;
+    text-align: center;
+}
+.collec{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
